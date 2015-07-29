@@ -335,6 +335,7 @@ Public Class form_TimeTable
                         .WriteStartElement(Lesson)
                         .WriteString(strInput)
                         .WriteEndElement()
+                        intB = intB + 1 - 1
                     Next intB
                 Next intA
             End With
